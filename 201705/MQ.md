@@ -42,6 +42,10 @@
 * Broker：消息处理中心。负责消息存储、确认、重试等，一般其中会包含多个 queue；
 * Consumer：消息消费者，负责从 Broker 中获取消息，并进行相应处理；
 
+![](assets/sms_send.jpeg)
+![](assets/producer_consumer.jpeg)
+![](assets/pub_sub.jpeg)
+
 ### 特性
 #### 异步性
 将耗时的同步操作，通过以发送消息的方式，进行了异步化处理。减少了同步等待的时间。
